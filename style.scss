@@ -1,0 +1,150 @@
+.grid {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 10px;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+      grid-auto-flow: column;
+      margin-bottom: 10px;
+    /* -ms-grid-rows: repeat(3, auto);
+        grid-template-rows: repeat(3, auto); */
+  }
+  
+  .item {
+    background-color: blue;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: 1px solid white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40vh;
+  
+  
+  }
+
+  .card-img {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 50%;
+      width: 100%;
+      background-image: url(../images/41.jpg);
+    // background-color: yellow;
+  }
+  
+  
+  .card {
+      height: 95%;
+      width: fit-content;
+      border: 2px solid black;
+  }
+  
+  .card-text {
+      display: center;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      h1,h2,h3,h4,h5,h6,p,a,div,ul,ol {
+          padding: 20px;
+      }
+  }
+  
+  .item1 {
+      background-image:url(images/42.jpg) ;
+      position: relative;
+      display: flex;
+  }
+  
+  @media only screen and (max-width: 650px){
+      .grid {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: auto;
+      grid-template-columns: auto;
+      grid-auto-flow: column; }
+      
+  }
+  
+  
+  @media only screen and (max-width: 950px){
+  
+      .grid {
+          background-color: blueviolet;
+          display: -ms-grid;
+          display: grid;
+          -ms-grid-columns: auto;
+          grid-template-columns: auto;
+       
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* .item1{
+      background-image: ;
+  }
+  
+  .item1, .item4, .item7{
+      position: relative;
+      left: 600px;
+  } 
+  
+  .item2, .item5, .item8{
+      position: relative;
+      left: 200px;
+  }
+  .item3, .item6, .item9{
+      position: relative;
+      right: 200px;
+  } */
+  /*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .grid{
+//     display: grid;
+//     grid-gap: 10px;
+//     grid-template-columns: repeat(3, auto) ;
+//     grid-template-rows: repeat(3, auto);
+
+// }
+
+// .item{
+//     background-color: blue;
+//     display: grid;
+//     justify-content: center;
+//     align-items: center;
+//     border: 1px solid white;
+//     color: white;
+//     font-family: Arial, Helvetica, sans-serif;
+//     width: 200px;
+//     height: 200px;
+}
